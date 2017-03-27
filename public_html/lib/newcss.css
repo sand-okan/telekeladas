@@ -1,0 +1,139 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2017.03.01., 23:19:22
+    Author     : sand
+*/
+
+body {
+    margin:0;
+    padding:0;
+    font-family: Verdana,'Noto Serif',Sans-Serif;
+    font-size: 1.0em;       /*betüméret*/
+    line-height: 1.5em;     /*sortávolság*/
+    overflow: auto;
+}
+
+p {
+    color: #555;
+}
+
+h1{
+    font-size: 1.2em;
+}
+
+h2{
+    font-size: 1.3em;
+}
+
+h3{
+    font-size: 1.4em;
+}
+.elhelyezkedes {
+    margin: 15px; /* Padding for content */
+    margin-top: 0;
+}
+
+/*----------------header - teteje---------------------------*/
+#header {
+/*    background: #ccc;*/
+/*        height: 300px;*/
+     /*   background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;    
+    */
+}
+#head_fel_1{
+    float: left;
+    width: 50%;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("../kepek/head_DSCN1971.JPG");
+}
+#head_fel_2{
+    float:  inside;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("../kepek/head_DSCN1966.JPG");
+}
+
+#header h1 {
+    margin: 0;
+    padding-top: 15px;
+}
+
+/*----------------az egész középső rész (nav+maian) (menü+tartalom)----------*/
+#kozepe{
+    /*    border-style:   dotted;*/
+}
+
+/*----------------az egész középső rész (tartalom)----------*/
+main {
+    /*border-style:  double;*/
+    float: left;
+    width: 80%;
+}
+
+/*---------------egybefogva a -változó tartalom - menütől függ---------------------*/
+#content {
+    /*tartalom*/
+}
+
+article {
+     padding-bottom: 2em;      /*cikk -tartalom közti hézag*/
+}
+/*----------------az egyes tartalmak---------------------------*/
+/*majd ha lesz*/
+
+.kep_01{
+    /*az egyes fejezetekbe rakott képekhez*/
+    width:15em;
+    height:15em;
+    border:0;
+}
+
+
+/*----------------menü - navigáció---------------------------*/
+#nav {
+    /*border-style:  double;*/ 
+    float: left;
+    width: 20%;
+    background: #eee;  
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+}
+
+nav ul a {
+    color: darkgreen;
+    text-decoration: none;
+}
+/*nav ul a:hover {font-size: 1.2em;color: #505050;text-decoration: underline;} /*Azt a linket választja ki, amelyik felett éppen áll az egér.*/
+nav ul a:hover {font-size: 1.2em;color:  blue;text-decoration: underline;} /*Azt a linket választja ki, amelyik felett éppen áll az egér.*/
+/*a:active {font-size: 150%;color: #282828;text-decoration: underline;} /*Azt linket választja ki, amelyiken állva az egérrel a felhasználó lenyomta az egérgombot, de még nem engedte fel.*/
+/*a:focus {font-size: 150%;color: #282828;}
+a:focused {font-size: 150%;color: #282828;}*/
+/*nav ul a:visited {color: #282828;} A már meglátogatott linkeket választja ki*/
+/*nav ul a:visited { color:  black};*/
+
+/*----------------footer -láb---------------------------*/
+#footer {
+    clear: left;
+    width: 100%;
+    background: #ccc;
+    text-align: center;
+    padding: 4px 0;
+}
