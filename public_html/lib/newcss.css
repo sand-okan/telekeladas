@@ -17,7 +17,7 @@ body {
     overflow: auto;
 }
 
-p {
+p, ul {
     color: #555;
 }
 
