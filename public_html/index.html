@@ -31,7 +31,8 @@ html5 structura: https://www.w3schools.com/html/html5_semantic_elements.asp
                         <li><a href="#miert_is">Miért is adjuk el az ingatlant?</a></li>
                         <li><a href="#hol_is">Hol is van az ingatlan?</a></li>
                         <li><a href="#mit_is">Mit is árulunk?</a></li>                       
-                        <li><a href="#mennyiert_is">Mennyiért áruljuk?</a></li>                       
+                        <li><a href="#mennyiert_is">Mennyiért áruljuk?</a></li>  
+                        <li><a href="#elerhetoseg">Elérhetőségünk</a></li>                       
                     </ul>
                     <h3>Az épület</h3>
                     <ul>
@@ -129,14 +130,16 @@ html5 structura: https://www.w3schools.com/html/html5_semantic_elements.asp
                                 <footer><p><a href="#top">Ugrás a lap tetejére</a></p></footer>
                             </article>
                             <article id="mit_is">
-                                <h1>Mits is ....</h1>
+                                <h1>Mit is ....</h1>
                                 <p>
-                                    Egy betonblokkból készült, draincsövezett szuterénre épült, plusz 2 szintes, beépitett tetőterű,
+                                    Egy 1069 négyzetméteres lankás hegyoldalon, gondozott kertben álló betonblokkból készült, 
+                                    draincsövezett szuterénre épült, plusz 2 szintes, beépitett tetőterű,
                                     könnyűszerkezetes, dryvit homlokzati hőszigetelő rendszerrel, nagypaneles, 30m2 alapterületű  Bramac betoncseréppel fedett épület.
                                     A teljes lakóterület 85 m2. 
                                     Az épület mögött, a házhoz építve egy 14m2-es, a ház központi fűtésébe kötött ugyanúgy
                                     szigetelt épület van, mely egybenyitható a házzal, jelenleg műhely, tároló.
                                 </p>
+                                <a href="#alaprajz">Ház alaprajza</a>
                                 <!--
                                 <p>
                                     <img class="kep_01" src="./kepek/mit_DSCF6949.JPG" alt="eladó ingatlan" title="ház, látkép, kert">
@@ -154,8 +157,15 @@ html5 structura: https://www.w3schools.com/html/html5_semantic_elements.asp
                                     <div class="w3-container w3-third"> <img src="./kepek/mit_DSCF6963.JPG" style="width:100%;cursor:pointer" onclick="onClick(this)" class="w3-hover-opacity"> </div>
                                     <div class="w3-container w3-third"> <img src="./kepek/mit_DSCF6967.JPG" style="width:100%;cursor:pointer" onclick="onClick(this)" class="w3-hover-opacity"> </div>
                                 </div>
+                                <div class="w3-row-padding">
+                                    <p>Kattintson a képre a nagyobb mérethez.<br><br>
+                                        <span id="alaprajz">ALAPRAJZ</span>                       
+                                    </p>
+                                    <div class="w3-container w3-third"> <img src="./kepek/szken_szuteren.jpg" style="width:100%;cursor:pointer" onclick="onClick(this)" class="w3-hover-opacity"> </div>
+                                    <div class="w3-container w3-third"> <img src="./kepek/szken_alapszint.jpg" style="width:100%;cursor:pointer" onclick="onClick(this)" class="w3-hover-opacity"> </div>
+                                    <div class="w3-container w3-third"> <img src="./kepek/szken_tetoter.jpg" style="width:100%;cursor:pointer" onclick="onClick(this)" class="w3-hover-opacity"> </div>
+                                </div>
                                 <p>A képeket a galériában megtekintheti nagyobb méretben!</p>
-
                                 <footer><p><a href="#top">Ugrás a lap tetejére</a></p></footer>
                             </article>
                             <article id="mennyiert_is">
@@ -167,6 +177,22 @@ html5 structura: https://www.w3schools.com/html/html5_semantic_elements.asp
                                 Ez azt jelenti, hogy kérjük azokat a vásárlókat akik azt képzelik, hogy "fillérekért", 
                                 "okosban" megvehetik az ingatlant (részletfizetés, beszámítás, stb..., kerüljenek Minket, ne raboljuk egymás idejét. Köszönjük!
                                 </p>
+                                <footer><p><a href="#top">Ugrás a lap tetejére</a></p></footer>
+                            </article>
+                            <article id="elerhetoseg">
+                                <h1>Elérhetőségünk</h1>
+                                <p>
+                                    Kedves Érdeklődő! Elérhet minket:<br>
+                                    Oláh Istvánné és Oláh István
+                                <ul>                                 
+                                    <li>telefonon: +36 20 265 0938</li>
+                                    <li>e-mail -on:                                   
+                                        <a href="mailto:nyaralo.haz.elado@gmail.com?                                          
+                                           &subject=Érdeklődés a pilisszántói nyaraló-házzal kapcsolatban
+                                           &body=Kapcsolat felvétele a honlapról: 2095 Pilisszántó, Galagonya utca ingatlannal kapcsolatban.
+                                           ">Levél írása, elküldése</a>                                    
+                                    </li>
+                                </ul>
                                 <footer><p><a href="#top">Ugrás a lap tetejére</a></p></footer>
                             </article>
                         </section> <!--END Rövid ismertető, bevezető, ár--> 
@@ -298,8 +324,10 @@ html5 structura: https://www.w3schools.com/html/html5_semantic_elements.asp
                                         már nem túl nagyok a baktériumok számára. Ezután a baktériumok "megeszik" 
                                         a szennyeződéseket, vagyis részint saját élő anyagukká, 
                                         részint gázokká illetve szervetlen anyagokká alakítják azokat. 
-                                        A mosáshoz a környezet további védelme érdekében mi mosószódát használunk. 
-                                        <a href="http://bolthely.hu/j-studio/id/04508_SEPTIFOS_1_kg_-_biologiailag_hato_por_emesztohoz" target="_blank">
+                                        A mosáshoz a környezet további védelme érdekében mi 
+                                        <a href="http://mososzoda.com/" target="_blank">mosószódát</a>
+                                        használunk. 
+                                        <a href="http://www.kohazy.hu/?id=termekek&product=septifos-emesztogodor-karbantarto&art_id=308&hj=2&nyelv=hun" target="_blank">
                                             Itt olvashat bővebben a folyamatról -> link</a> 
                                     </li>
                                     <li>úthálózat: Pilisvörösvárról Pilisszántóra vezető aszfaltos útról van a leágazás a település felé. 
