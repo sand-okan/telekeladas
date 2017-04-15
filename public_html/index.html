@@ -60,8 +60,7 @@ html5 structura: https://www.w3schools.com/html/html5_semantic_elements.asp
                     <ul>
                         <li><a href="#kepek">Képgaléria</a></li>
                         <li><a href="#video">Videók</a></li>
-                        <li><a href="#telek">Földhivatal</a></li>
-                        <li><a href="#onkorm">Önkormányzat</a></li>
+                        <li><a href="#hivatalos_doksi">Hivatalos dokumentumok</a></li>
                         <li><a href="#">______________</a></li>
                         <li><a href="#ugynok">Ügynököknek, ingatlan irodáknak, annak aki segít az eladásban!</a></li>
                         <li><a href="#hirdet">Médiákban megadott hirdetési szöveg</a></li>
@@ -372,7 +371,7 @@ html5 structura: https://www.w3schools.com/html/html5_semantic_elements.asp
                                         </ul>
                                     </li>
                                     <li>
-                                        Még egy fix költség az építményadó: évi 24.000 Ft, ha már egy fő is be van jelentve lakónak.
+                                        Még egy fix költség az építményadó: évi 24.000 Ft, ha már egy fő is be van jelentve állandó lakónak akkor 12.000 Ft.
                                     </li>                                
                                 </ul>                                                        
                                 <p>
@@ -553,30 +552,55 @@ html5 structura: https://www.w3schools.com/html/html5_semantic_elements.asp
                                 <p>A képeket a galériában megtekintheti nagyobb méretben!</p>
                                 <footer><p><a href="#top">Ugrás a lap tetejére</a></p></footer>
                             </article>                            
-                            <article id="telek">
-                                <h1>Földhivatal</h1>
-                                <p>szöveg, ez amiért tartalom1
-                                </p>                            
-                                <p>
-                                    <img class="kep_01" src="./kepek/x.JPG" alt="eladó ingatlan" title="ház, látkép, kert">
-                                    <img class="kep_01" src="./kepek/x.JPG" alt="eladó ingatlan" title="ház, látkép, kert">                                     
-                                    <img class="kep_01" src="./kepek/x.JPG" alt="eladó ingatlan" title="ház, látkép, kert">                                     
-                                </p>
+                            <article id="hivatalos_doksi">
+                                <h1>Hivatalos dokumentumok, földhivatal, önkormányzat</h1>
+                                <ul>
+                                    <li>
+                                        2016-ban elvégeztük a földrészlet ingatlanra vonatkozó "zártkerti művelés alól kivett terület" feltüntetését a földhivatalnál, így szabadon értékesíthető
+                                        <div class="w3-row-padding">
+                                            <p>Kattintson a képre a nagyobb mérethez.</p>
+                                            <div class="w3-container w3-third"> <img src="./kepek/hivatal_muveles_alol_kiveve-1.jpg" style="width:100%;cursor:pointer" onclick="onClick(this)" class="w3-hover-opacity"> </div>
+                                            <div class="w3-container w3-third"> <img src="./kepek/hivatal_muveles_alol_kiveve-2.jpg" style="width:100%;cursor:pointer" onclick="onClick(this)" class="w3-hover-opacity"> </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        földhivatali bejegyzések -zártkerti művelés alól kivett:
+                                          <div class="w3-row-padding">
+                                            <p>Kattintson a képre a nagyobb mérethez.</p>
+                                            <div class="w3-container w3-third"> <img src="./kepek/hivatal_foldhivatal-1.jpg" style="width:100%;cursor:pointer" onclick="onClick(this)" class="w3-hover-opacity"> </div>
+                                            <div class="w3-container w3-third"> <img src="./kepek/hivatal_foldhivatal-1.jpg" style="width:100%;cursor:pointer" onclick="onClick(this)" class="w3-hover-opacity"> </div>
+                                        </div>                                     
+                                    </li>
+                                    <li>
+                                        hatósági bizonyítvány, hogy az ingatlanon egy darab épület áll:
+                                        <div class="w3-row-padding">
+                                            <p>Kattintson a képre a nagyobb mérethez.</p>
+                                            <div class="w3-container w3-third"> <img src="./kepek/hivatal_hat.bizonyitv.egy.ingatlan.jpg" style="width:100%;cursor:pointer" onclick="onClick(this)" class="w3-hover-opacity"> </div>
+                                    </li>
+                                    <li>
+                                        Most akkor hogy is van ez. Egy jó magyaros anomália:
+                                        <article>
+                                            a földhivatali bejegyzésben <u>nincs benne az épület</u>, ugyanakkor az építésügyi hatóság <u>elismeri a létét</u>, 
+                                            erről <u>bizonyítványt állít ki</u> (tanukat soroltatott fel, megjelent a helyszínen, fényképezett), az önkormányzat 
+                                            pedig <u>építményadó formájában adóztatja</u> a földhivatali lapon <u>nem szereplő épületet</u>, ahová <u>állandó lakosként</u> vagyunk bejelentve, 
+                                            ezért -mert lakott, csak az <u>ingatlanadó felét</u> kell fizetni. Ezek mind láthatóak a fenti dokumentumokon.
+                                        </article>
+                                        <article>
+                                            Nos az anomália a telep több száz házát érinti -illetve általános probléma Mo.-n, hogy jelenleg 5% -os beépítettséget
+                                            alkalmaz az önkormányzat, amit 
+                                            <a href="http://szegedma.hu/hir/szeged/2016/06/valozott-a-szabalyozas-epitkezesi-hullam-varhato-a-szegedi-kiskerteknel.html" target="_blank">2016 -tól 10% -ra növelték országosan</a>
+                                            , de ez még nem érdekli az önkormányzatot,
+                                            a másik probléma, hogy engedélyt csak gazdasági épületre adnak.
+                                            Tehát a telep lakói és lakóházai jelenleg a valóságban léteznek, itt laknak, aszfaltos út, víz, villany, szemét elszállítás, közvilágítás, 
+                                            telefonhálózat rendelkezésre áll az "alma tárolójuk" részére, nekünk bizonyítvány formájában, lebonthatatlanul.
+                                            
+                                        </article>
+                                        
+                                    </li>
+                                </ul>
                                 <p>A képeket a galériában megtekintheti nagyobb méretben!</p>
                                 <footer><p><a href="#top">Ugrás a lap tetejére</a></p></footer>
-                            </article>                            
-                            <article id="onkorm">
-                                <h1>Önkormányzat</h1>
-                                <p>szöveg, ez amiért tartalom1
-                                </p>                            
-                                <p>
-                                    <img class="kep_01" src="./kepek/x.JPG" alt="eladó ingatlan" title="ház, látkép, kert">
-                                    <img class="kep_01" src="./kepek/x.JPG" alt="eladó ingatlan" title="ház, látkép, kert">                                     
-                                    <img class="kep_01" src="./kepek/x.JPG" alt="eladó ingatlan" title="ház, látkép, kert">                                     
-                                </p>
-                                <p>A képeket a galériában megtekintheti nagyobb méretben!</p>
-                                <footer><p><a href="#top">Ugrás a lap tetejére</a></p></footer>
-                            </article>                            
+                            </article>                                                       
                             <article id="ugynok">
                                 <h1>Ügynököknek, ingatlan irodáknak, annak aki segít az eladásban!</h1>
                                 <p>Nem kellett sokat gondolkodnunk, hogyan köszönjük meg annak az embernek az ügyességét aki 
@@ -588,7 +612,7 @@ html5 structura: https://www.w3schools.com/html/html5_semantic_elements.asp
                                     teljes cselekvőképességünk tudatával támasztjuk alá.<br>
                                     Az eladás segítéséhez felhasználhatóak a honlapon található adatok (képek,
                                     <a href="#hirdet">szövegek</a> 
-                                     )!
+                                    )!
                                 </p>
                                 <div class="w3-row-padding">
                                     <div class="w3-container w3-third"> <img src="./kepek/penzteremtes.jpg" style="width:100%;cursor:pointer" onclick="onClick(this)" class="w3-hover-opacity"> </div>
