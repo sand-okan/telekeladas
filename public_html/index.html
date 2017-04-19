@@ -1,17 +1,16 @@
 <!DOCTYPE html>
-<!-- Telek eladásához -->
-<!-- desktop 20170328
+<!-- Telek eladásához 
+desktop 20170328
 <a href="" target="_blank"></a>
 nincs még megcsinálva:
 HTML5 <figure> and <figcaption> Elements
 html5 structura: https://www.w3schools.com/html/html5_semantic_elements.asp
-
 -->
 
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <title>Csodálatos környezetben, téliesített nyaraló eladó/</title>
+        <title>Csodálatos környezetben, téliesített nyaraló eladó</title>
         <link href="lib/newcss.css" rel="stylesheet" type="text/css"/>
         <link href="lib/w3.css" rel="stylesheet" type="text/css"/>
 
@@ -319,7 +318,6 @@ html5 structura: https://www.w3schools.com/html/html5_semantic_elements.asp
                                     <div class="w3-container w3-third"> <img src="./kepek/DSCF-resized.jpg" style="width:100%;cursor:pointer" onclick="onClick(this)" class="w3-hover-opacity"> </div>
                                     <div class="w3-container w3-third"> <img src="./kepek/szken_tetoter.jpg" style="width:100%;cursor:pointer" onclick="onClick(this)" class="w3-hover-opacity"> </div>
                                 </div>                               
-
                                 <p>Kattintson a képekre a nagyobb mérethez, amiket a galériában is megtekinthet!</p>
                                 <footer><p><a href="#top">Ugrás a lap tetejére</a></p></footer>
                             </article>
@@ -330,7 +328,6 @@ html5 structura: https://www.w3schools.com/html/html5_semantic_elements.asp
                                     Ugyanúgy szigetelt, a központi fűtés része. Az ablakok nincsenek benne, de ki van alakítva a fogadó helyük. 
                                     Számunkra már így is nagy lett a ház, jelenleg tárolónak használjuk.                                    
                                 </p>   
-
                                 <div class="w3-row-padding">
                                     <p>Kattintson a képekre  a nagyobb mérethez!</p>   
                                     <div class="w3-container w3-third"> <img src="./kepek/DSCF6582-resized.jpg" style="width:100%;cursor:pointer" onclick="onClick(this)" class="w3-hover-opacity"> </div>
@@ -595,26 +592,15 @@ html5 structura: https://www.w3schools.com/html/html5_semantic_elements.asp
                         <section id="Galeriak_dokumentumok"> <!--Galériák, dokumentumok-->
                             <article id="kepek">
                                 <h1>Képgaléria</h1>
-                                <p>szöveg, ez amiért tartalom1
+                                <p>Egy külön ablakban fog megnyílni a képgaléria. 
+                                    <a href="galeria.html" target="_blank">Kérem kattintson ide!</a>
                                 </p>                            
-                                <p>
-                                    <img class="kep_01" src="./kepek/x.jpg" alt="eladó ingatlan" title="ház, látkép, kert">
-                                    <img class="kep_01" src="./kepek/x.jpg" alt="eladó ingatlan" title="ház, látkép, kert">                                     
-                                    <img class="kep_01" src="./kepek/x.jpg" alt="eladó ingatlan" title="ház, látkép, kert">                                     
-                                </p>
-                                <p>Kattintson a képekre a nagyobb mérethez, amiket a galériában is megtekinthet!</p>
-                                <footer><p><a href="#top">Ugrás a lap tetejére</a></p></footer>
+                                 <footer><p><a href="#top">Ugrás a lap tetejére</a></p></footer>
                             </article>                            
                             <article id="video">
                                 <h1>Videók</h1>
                                 <p>szöveg, ez amiért tartalom1
                                 </p>                            
-                                <p>
-                                    <img class="kep_01" src="./kepek/x.jpg" alt="eladó ingatlan" title="ház, látkép, kert">
-                                    <img class="kep_01" src="./kepek/x.jpg" alt="eladó ingatlan" title="ház, látkép, kert">                                     
-                                    <img class="kep_01" src="./kepek/x.jpg" alt="eladó ingatlan" title="ház, látkép, kert">                                     
-                                </p>
-                                <p>Kattintson a képekre a nagyobb mérethez, amiket a galériában is megtekinthet!</p>
                                 <footer><p><a href="#top">Ugrás a lap tetejére</a></p></footer>
                             </article>                            
                             <article id="hivatalos_doksi">
@@ -749,17 +735,11 @@ html5 structura: https://www.w3schools.com/html/html5_semantic_elements.asp
                 <img id="img01" style="width:100%">
             </div>
         </div>
-
-
         <script>
             function onClick(element) {
                 document.getElementById("img01").src = element.src;
                 document.getElementById("modal01").style.display = "block";
             }
         </script>
-
-
-
-
     </body>
 </html>
