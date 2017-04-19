@@ -17,6 +17,31 @@ body {
     overflow: auto;
 }
 
+/*
+ unvisited link 
+a:link {
+    color: blue;
+}
+
+ visited link 
+a:visited {
+    color: purple;
+}
+
+ mouse over link 
+a:hover {
+    color: blue;
+}
+
+ selected link 
+a:active {
+    color: red;
+}
+*/
+
+
+
+
 p, ul {
     color: #555;
 }
