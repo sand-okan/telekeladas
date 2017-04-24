@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <!--<title>TODO supply a title</title>-->
+        <!--        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Csodálatos környezetben, téliesített nyaraló eladó</title>
+        <link href="lib/newcss.css" rel="stylesheet" type="text/css"/>
+        <link href="lib/w3.css" rel="stylesheet" type="text/css"/>
+
+    </head>
+    <body>
+        <div class="w3-container w3-teal">
+            <h1>Csodálatos környezetben, téliesített nyaraló-ház eladó</h1>
+        </div>         
+        <p>
+            SAJNOS A KÜLÖNBÖZŐ BÖNGÉSZŐK KÖZÖTT NINCS EGYEZSÉG A MEGTEKINTHETŐ VIDEÓK TÍPUSÁT ILLETŐEN, 
+            EZÉRT ELŐFORDULHAT, HOGY AZ ÖN BÖNGÉSZŐJE NEM TÁMOGATJA EZT A FAJTA VIDEÓT. 
+            JAVASOLJUK, PRÓBÁLJA MEG MÁSIK ESZKÖZÖN, VAGY FRISSÍTSE A RENDSZERÉT.
+        </p>  
+
+        ház körül
+
+
+        <div class="w3-row-padding">
+            <div class="w3-container w3-third"> 
+                <video controls >
+                    <source src="videok/haz-01.mp4" type="video/mp4">
+                    Az Ön böngészője nem alkalmas (elavult) a <code>videó</code> lejátszásához!
+                </video>
+            </div>
+            <div class="w3-container w3-third"> 
+                <video controls >
+                    <source src="videok/ny-fel-le.mp4" type="video/mp4">
+                    Az Ön böngészője nem alkalmas (elavult) a <code>videó</code> lejátszásához!
+                </video>
+            </div>
+            <div class="w3-container w3-third"> 
+                <video controls >
+                    <source src="videok/hazkorul.mp4" type="video/mp4">
+                    Az Ön böngészője nem alkalmas (elavult) a <code>videó</code> lejátszásához!
+                </video>
+            </div>            
+        </div>
+        házban
+        <div class="w3-row-padding">
+            <div class="w3-container w3-third"> 
+                <video controls >
+                    <source src="videok/h00-szuteren.mp4" type="video/mp4">
+                    Az Ön böngészője nem alkalmas (elavult) a <code>videó</code> lejátszásához!
+                </video>
+            </div>
+            <div class="w3-container w3-third"> 
+                <video controls >
+                    <source src="videok/h01-nappali-terasz.mp4" type="video/mp4">
+                    Az Ön böngészője nem alkalmas (elavult) a <code>videó</code> lejátszásához!
+                </video>
+            </div>
+            <div class="w3-container w3-third"> 
+                <video controls >
+                    <source src="videok/h02-tetoter.mp4" type="video/mp4">
+                    Az Ön böngészője nem alkalmas (elavult) a <code>videó</code> lejátszásához!
+                </video>
+            </div>
+            <div class="w3-container w3-third"> 
+                <video controls >
+                    <source src="videok/h03-lepcsohaz.mp4" type="video/mp4">
+                    Az Ön böngészője nem alkalmas (elavult) a <code>videó</code> lejátszásához!
+                </video>
+            </div>
+        </div>
+
+
+
+
+        tó
+
+        <div class="w3-row-padding">
+            <div class="w3-container w3-third"> 
+                <video controls >
+                    <source src="videok/hatar-reti-to.mp4" type="video/mp4">
+                    Az Ön böngészője nem alkalmas (elavult) a <code>videó</code> lejátszásához!
+                </video>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="w3-container w3-teal">
+            <h5>Footer</h5>
+            <p>&copy; Copyright whatever</p>
+        </div>
+
+
+        <div id="modal01" class="w3-modal" onclick="this.style.display = 'none'">
+            <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+            <div class="w3-modal-content w3-animate-zoom">
+                <img id="img01" style="width:100%">
+            </div>
+        </div>
+        <script>
+            function onClick(element) {
+                document.getElementById("img01").src = element.src;
+                document.getElementById("modal01").style.display = "block";
+            }
+        </script>
+
+
+    </body>
+</html>
