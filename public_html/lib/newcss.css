@@ -80,9 +80,9 @@ h3{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-        background-image: url("../kepek/DSCF7005-resized.jpg");
-
+    background-image: url("../kepek/DSCF7005-resized.jpg");
 }
+
 #head_fel_2{
     float:  inside;
     height: 300px;
@@ -90,8 +90,6 @@ h3{
     background-repeat: no-repeat;
     background-position: center center;
     background-image: url("../kepek/DSCF7389-resized.jpg");
-        /*background-image: url("../kepek/DSCF6946-resized.jpg");*/
-
 }
 
 #header h1 {
@@ -173,10 +171,6 @@ a:focused {font-size: 150%;color: #282828;}
     padding: 4px 0;   
 }
 
-#footer ul{
-    background: #ccc;
-}
-
-#footer div{
-    background: #ccc;
+#footer ul li{
+    display: inline;
 }
