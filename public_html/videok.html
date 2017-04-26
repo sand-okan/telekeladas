@@ -18,57 +18,63 @@ and open the template in the editor.
     <body>
         <div class="w3-container w3-teal">
             <h1>Csodálatos környezetben, téliesített nyaraló-ház eladó</h1>
-        </div>         
+        </div>
         <p>
-            SAJNOS A KÜLÖNBÖZŐ BÖNGÉSZŐK KÖZÖTT NINCS EGYEZSÉG A MEGTEKINTHETŐ VIDEÓK TÍPUSÁT ILLETŐEN, 
-            EZÉRT ELŐFORDULHAT, HOGY AZ ÖN BÖNGÉSZŐJE NEM TÁMOGATJA EZT A FAJTA VIDEÓT. 
-            JAVASOLJUK, PRÓBÁLJA MEG MÁSIK ESZKÖZÖN, VAGY FRISSÍTSE A RENDSZERÉT.
-        </p>  
+            SAJNOS A KÜLÖNBÖZŐ BÖNGÉSZŐK KÖZÖTT NINCS EGYEZSÉG A MEGTEKINTHETŐ VIDEÓK TÍPUSÁT ILLETŐEN,
+            EZÉRT ELŐFORDULHAT, HOGY AZ ÖN BÖNGÉSZŐJE NEM TÁMOGATJA EZT A FAJTA VIDEÓT.
+            JAVASOLJUK, PRÓBÁLJA MEG MÁSIK ESZKÖZÖN, VAGY FRISSÍTSE A RENDSZERÉT.<br>
+            Kattíntson a lejátszás gombra!
+        </p>
 
-        ház körül
-
+        <div class="w3-container w3-teal">
+            A környék és a ház körül
+        </div>
 
         <div class="w3-row-padding">
-            <div class="w3-container w3-third"> 
+            <div class="w3-container w3-third">
                 <video controls >
                     <source src="videok/haz-01.mp4" type="video/mp4">
                     Az Ön böngészője nem alkalmas (elavult) a <code>videó</code> lejátszásához!
                 </video>
             </div>
-            <div class="w3-container w3-third"> 
+            <div class="w3-container w3-third">
                 <video controls >
                     <source src="videok/ny-fel-le.mp4" type="video/mp4">
                     Az Ön böngészője nem alkalmas (elavult) a <code>videó</code> lejátszásához!
                 </video>
             </div>
-            <div class="w3-container w3-third"> 
+            <div class="w3-container w3-third">
                 <video controls >
                     <source src="videok/hazkorul.mp4" type="video/mp4">
                     Az Ön böngészője nem alkalmas (elavult) a <code>videó</code> lejátszásához!
                 </video>
-            </div>            
+            </div>
         </div>
-        házban
+
+        <div class="w3-container w3-teal">
+            A házban
+        </div>
+
         <div class="w3-row-padding">
-            <div class="w3-container w3-third"> 
+            <div class="w3-container w3-third">
                 <video controls >
                     <source src="videok/h00-szuteren.mp4" type="video/mp4">
                     Az Ön böngészője nem alkalmas (elavult) a <code>videó</code> lejátszásához!
                 </video>
             </div>
-            <div class="w3-container w3-third"> 
+            <div class="w3-container w3-third">
                 <video controls >
                     <source src="videok/h01-nappali-terasz.mp4" type="video/mp4">
                     Az Ön böngészője nem alkalmas (elavult) a <code>videó</code> lejátszásához!
                 </video>
             </div>
-            <div class="w3-container w3-third"> 
+            <div class="w3-container w3-third">
                 <video controls >
                     <source src="videok/h02-tetoter.mp4" type="video/mp4">
                     Az Ön böngészője nem alkalmas (elavult) a <code>videó</code> lejátszásához!
                 </video>
             </div>
-            <div class="w3-container w3-third"> 
+            <div class="w3-container w3-third">
                 <video controls >
                     <source src="videok/h03-lepcsohaz.mp4" type="video/mp4">
                     Az Ön böngészője nem alkalmas (elavult) a <code>videó</code> lejátszásához!
@@ -76,20 +82,31 @@ and open the template in the editor.
             </div>
         </div>
 
-
-
-
-        tó
+        <div class="w3-container w3-teal">
+            Egy kis séta után itt a tó
+        </div>
 
         <div class="w3-row-padding">
-            <div class="w3-container w3-third"> 
-                <video controls >
+            <div class="w3-container w3-third">
+                <video controls>
                     <source src="videok/hatar-reti-to.mp4" type="video/mp4">
                     Az Ön böngészője nem alkalmas (elavult) a <code>videó</code> lejátszásához!
                 </video>
             </div>
         </div>
 
+        <div class="w3-container w3-teal">
+            Ilyen télen...
+        </div>
+
+        <div class="w3-row-padding">
+            <div class="w3-container w3-third">
+                <video controls>
+                    <source src="videok/telivilag.mp4" type="video/mp4">
+                    Az Ön böngészője nem alkalmas (elavult) a <code>videó</code> lejátszásához!
+                </video>
+            </div>
+        </div>
 
 
 
@@ -113,6 +130,18 @@ and open the template in the editor.
             }
         </script>
 
+
+        <!--kattintásra megy a videó-->
+        <!--        <script>
+                    var video = document.getElementById('player');
+                    video.addEventListener('click', function () {
+                        if (video.paused) {
+                            video.play();
+                        } else {
+                            video.pause();
+                        }
+                    }, false);
+                </script>-->
 
     </body>
 </html>

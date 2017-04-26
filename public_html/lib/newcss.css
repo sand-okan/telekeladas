@@ -17,27 +17,26 @@ body {
     overflow: auto;
 }
 
-/*
- unvisited link 
+/* unvisited link */
 a:link {
+    /*color: green;*/
     color: blue;
 }
 
- visited link 
+/* visited link */
 a:visited {
-    color: purple;
-}
-
- mouse over link 
-a:hover {
     color: blue;
 }
 
- selected link 
-a:active {
+/* mouse over link */
+a:hover {
     color: red;
 }
-*/
+
+/* selected link */
+a:active {
+    color: black;
+}
 
 video {
     width: 100%;
@@ -148,23 +147,36 @@ nav ul {
 li {
 }
 
+
 nav ul a {
     color: darkgreen;
     text-decoration: none;
 }
-/*nav ul a:hover {font-size: 1.2em;color: #505050;text-decoration: underline;} /*Azt a linket választja ki, amelyik felett éppen áll az egér.*/
-nav ul a:hover {font-size: 1.2em;color:  blue;text-decoration: underline;} /*Azt a linket választja ki, amelyik felett éppen áll az egér.*/
-/*a:active {font-size: 150%;color: #282828;text-decoration: underline;} /*Azt linket választja ki, amelyiken állva az egérrel a felhasználó lenyomta az egérgombot, de még nem engedte fel.*/
-/*a:focus {font-size: 150%;color: #282828;}
-a:focused {font-size: 150%;color: #282828;}*/
-/*nav ul a:visited {color: #282828;} A már meglátogatott linkeket választja ki*/
-/*nav ul a:visited { color:  black};*/
+
+nav ul a:link {color: green;} /* unvisited link */
+nav ul a:visited {color: green;} /* visited link */
+nav ul a:hover {font-size: 1.2em;color: blue; text-decoration: underline;} /* mouse over link *//*Azt a linket választja ki, amelyik felett éppen áll az egér.*/
+nav ul a:active {font-size: 1.5em;color: black;text-decoration: underline;} /* selected link *//*Azt linket választja ki, amelyiken állva az egérrel a felhasználó lenyomta az egérgombot, de még nem engedte fel.*/
+
+/*
+a:focus {font-size: 150%;color: #282828;}
+a:focused {font-size: 150%;color: #282828;}
+*/
+
 
 /*----------------footer -láb---------------------------*/
 #footer {
     clear: left;
     width: 100%;
     background: #ccc;
-    text-align: center;
-    padding: 4px 0;
+    /*text-align: center;*/
+    padding: 4px 0;   
+}
+
+#footer ul{
+    background: #ccc;
+}
+
+#footer div{
+    background: #ccc;
 }
